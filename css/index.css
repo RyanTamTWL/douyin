@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 15px;
+  font-family: arial;
+}
+
+.page-container{
+  position: relative;
+  height: 100%;
+}
+
+.page-video-bg{
+  height: 100%;
+}
+
+.page-video-bg video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.page-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 17px;
+  font-family: arial;
+}
+
+.page-header .logo-container{
+  margin-left: 75px;
+  margin-top: 33px;
+}
+
+.page-header .header-info{
+  margin-right: 190px;
+  margin-top: 53px;
+}
+
+.page-header .header-info nav a{
+  margin-right: 30px;
+  color: #999;
+  text-decoration: none;
+}
+
+.page-mainer{
+  flex: 1;
+  text-align: right;
+  margin-top: 260px;
+  margin-right: 167px;
+}
+
+.page-mainer .slogan-container{
+  margin-bottom: 45px;
+}
+
+.page-mainer .image-container img{
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.page-mainer .image-container img:hover{
+  opacity: 0.8;
+}
+
+.page-footer{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.page-footer .footer-info1 a{
+  color: #999;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.page-footer .footer-info1{
+  margin-bottom: 15px;
+}
+
+.page-footer .footer-info2 a{
+  color: #999;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.page-footer .footer-info3 a{
+  color: #999;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.page-footer .footer-info4 a{
+  color: #999;
+  text-decoration: none;
+  margin-right: 10px;
+}
